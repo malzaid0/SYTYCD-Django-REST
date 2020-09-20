@@ -2,6 +2,7 @@ from datetime import date
 
 from rest_framework.permissions import BasePermission
 
+
 class IsBookedByUser(BasePermission):
     message = "This isn't your booking....."
 
